@@ -1,4 +1,7 @@
-import sys
+import os
+from pathlib import Path
 
-ROOT_DIR = sys.path[0]
-DATA_DIR = ROOT_DIR + "/data/"
+ROOT_DIR = Path(os.path.dirname(__file__))
+
+DATA_DIR = ROOT_DIR / "data"
+POSEBOWL_OBJDET_DIR = DATA_DIR / "posebowl_objdet"

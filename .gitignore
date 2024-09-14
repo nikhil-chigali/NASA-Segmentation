@@ -107,6 +107,8 @@ venv.bak/
 # Dataset
 /data/*/
 
+/models/*.pt
+
 # mkdocs documentation
 /site
 
